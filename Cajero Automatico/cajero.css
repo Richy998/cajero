@@ -1,0 +1,88 @@
+#intro{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+}
+#login{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+ width: 300px;
+ position: relative;
+ left: 40%;
+ 
+ align-items: center;
+}
+#loginbtn{
+    width: 180px;
+}
+#sidel{
+    width: 400px; 
+    position: relative;
+    left: 10px;
+}
+#sider{
+    width: 400px; 
+    position: relative;
+  
+    right: 0px;
+}
+#left_menu{
+    display: flex;
+    flex-direction: column;
+    left: 50px;
+    width: 400px;
+    margin: 0;
+}
+#right_menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+height: 200px;
+}
+.option{
+    height: 100px;
+    width: 400px;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+#inside{
+    opacity: 0;
+    background-color: #045AFE;
+
+    width: 100%;
+    height: 730px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#saldo{
+    height: 300px;
+    width: 400px;
+    background-color: #FE0607;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 150%;
+    top: -400px;
+    border-radius: 45px;
+}
+#bankoa{
+    position: absolute;
+    background-size: contain;
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.rvKDIgQqfS-4ujxSH3mVxgHaA7&pid=Api&P=0");
+    height: 100px;
+    background-repeat: no-repeat;
+    width: 500px;
+    top: 30px;
+    left: 30px;
+}
+
